@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Negeri 1 Cigugur</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        nav {
+            background-color: #00509E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 0;
+        }
+        nav a {
+            color: white;
+            text-align: center;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #003366;
+            color: #ffeb3b;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        /* Section styles */
+        .welcome {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 50px 0;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .profile-image {
+            width: 200px; /* Ukuran lebih besar */
+            height: 200px;
+            border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+            object-fit: cover; /* Memastikan gambar terpotong dengan baik */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek transisi */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+        }
+        .profile-image:hover {
+            transform: scale(1.1); /* Efek memperbesar gambar saat hover */
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Bayangan lebih besar saat hover */
+        }
+        .content {
+            flex: 1;
+            margin-left: 30px;
+        }
+        .content h2 {
+            color: #003366;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .visi-misi {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+        .visi-misi h2 {
+            color: #003366;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        .visi-misi p, .visi-misi ul {
+            font-size: 1.1em;
+            line-height: 1.7;
+        }
+        .visi-misi ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SMA NEGERI 1 CIGUGUR</h1>
+    </header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentangsekolah.html">Tentang Sekolah</a>
+        <a href=".kegiatan.html">Kegiatan Sekolah</a>
+        <a href="kalender.html">Kalender Akademik</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <section id="beranda" class="welcome">
+        <div>
+            <img src="kepsek.jpeg" alt="Foto Pimpinan" class="profile-image">
+        </div>
+        <div class="content">
+            <h2>Selamat datang di, SMA NEGERI 1 CIGUGUR</h2>
+            <p>Menegakkan disiplin warga sekolah dan memberikan keteladanan, penyediaan sarana dan prasana yang memadai, menciptakan lingkungan sekolah sebagai masyarakat belajar.</p>
+        </div>
+    </section>
+
+    <section id="tentang" class="visi-misi">
+        <div class="container">
+            <h2>VISI</h2>
+            <p>Mewujudkan Sekolah Yang Religius, Berbudi Pekerti Luhur, Cerdas, Berbudaya Lingkungan dan Ramah Anak.</p>
+
+            <h2>MISI</h2>
+            <ul>
+                <li>Meningkatkan kualitas keimanan dan ketakwaan seluruh warga sekolah.</li>
+                <li>Mengimplementasikan sikap berakhlak mulia dan kepedulian sosial dalam kehidupan sehari-hari.</li>
+                <li>Mengembangkan seluruh potensi kecerdasan peserta didik melalui pendekatan pembelajaran yang dinamis, kreatif, inovatif, serta menyenangkan.</li>
+                <li>Mewujudkan suasana belajar yang kondusif dengan menyediakan fasilitas yang aman, nyaman, bersih, sehat, rindang, dan indah.</li>
+                <li>Mewujudkan layanan pendidikan yang ramah anak dan profesional yang didasarkan pada tanggung jawab profesi dan kompetensi tinggi.</li>
+                <li>Menumbuhkan rasa tanggung jawab sosial dalam lingkungan sekolah melalui kegiatan pengabdian masyarakat dan bakti sosial yang melibatkan seluruh warga sekolah.</li>
+                <li>Menciptakan budaya sekolah yang mencintai alam dan peduli terhadap keberlanjutan lingkungan hidup di sekitar sekolah.</li>
+                <li>Mendorong siswa untuk berprestasi di berbagai bidang, baik akademik maupun non-akademik, dengan cara yang adil dan transparan.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SMA Negeri 1 Cigugur. All rights reserved.</p>
+    </footer>
+</body>
+</html>

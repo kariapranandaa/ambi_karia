@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Negeri 1 Cigugur - Kalender Akademik</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        nav {
+            background-color: #00509E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 0;
+        }
+        nav a {
+            color: white;
+            text-align: center;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #003366;
+            color: #ffeb3b;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        /* Kalender Akademik Section */
+        .kalender-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .kalender-description {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .kalender-description h2 {
+            color: #003366;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .kalender-description p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .kalender-image {
+            width: 40%;
+        }
+        .kalender-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SMA NEGERI 1 CIGUGUR</h1>
+    </header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentangsekolah.html">Tentang Sekolah</a>
+        <a href=".kegiatan.html">Kegiatan Sekolah</a>
+        <a href="kalender.html">Kalender Akademik</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <!-- Kalender Akademik Section -->
+    <section id="kalender" class="kalender-section">
+        <div class="kalender-description">
+            <h2>Kalender Akademik SMA Negeri 1 Cigugur</h2>
+            <p>Kalender akademik SMA Negeri 1 Cigugur berisi jadwal penting sepanjang tahun ajaran. Mulai dari kegiatan awal semester, ujian tengah semester, hingga ujian akhir semester dan liburan. Kami berkomitmen untuk memberikan informasi yang transparan dan mudah diakses oleh seluruh siswa dan orang tua.</p>
+            <p>Berikut adalah beberapa jadwal penting yang perlu diperhatikan oleh seluruh siswa:</p>
+            <ul>
+                <li><strong>Awal Tahun Ajaran:</strong> Juli - Agustus</li>
+                <li><strong>Ujian Tengah Semester (UTS):</strong> Oktober</li>
+                <li><strong>Liburan Semester 1:</strong> Desember</li>
+                <li><strong>Ujian Akhir Semester (UAS):</strong> Mei</li>
+                <li><strong>Liburan Semester 2:</strong> Juni</li>
+            </ul>
+        </div>
+        <div class="kalender-image">
+            <img src="kalender.png" alt="Kalender Akademik">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SMA Negeri 1 Cigugur. All rights reserved.</p>
+    </footer>
+</body>
+</html>
